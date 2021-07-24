@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+	<title> AMMO Team Details
+	</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="AMMOGamingStyle.css" title="style" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+      <script type = "text/javascript" src= "AMMOGamingCreateTeam.js" >
+      </script>
+
+     
+    
+
+</head>
+
+<body>
+
+    <div class="navHolder">
+        <div class="linkHolder">
+            <a href="AMMOGamingHome.html"> <img src="Images/AMMOGamingLogo.JPG" width="70px" height="40px"> </a>
+        </div>
+
+        <div class="linkHolder">
+            <a href="AMMOGamingTeams.php"> <img src="Images/TeamMenu.JPG" width="70px" height="30px"> </a>
+        </div>
+
+        <div class="linkHolder">
+            <a href="AMMOGamingEvents.php"> <img src="Images/EventsMenu.JPG" width="70px" height="30px"> </a>
+        </div>
+
+        <div class="linkHolder">
+            <a href="AMMOGamingLeader.php"> <img src="Images/LeaderBMenu.JPG" width="70px" height="40px"> </a>
+        </div>
+     </div>
+     
+ 
+     <div class="eventsHeaderLong">
+        <p style="font-size: 32pt;">Create A Team</p>
+     </div>
+     
+     <div class="eventsBody">
+        
+        <div class="eventFormHolder">
+            <form action ="AMMOGamingCreateTeam.php" method="post">
+
+                <p>
+                <label>Team Name <input type ="text" name="TeamName" /></label>
+                </br>
+                </br>
+                
+                <label>Team Abbreviation <input type ="text" name="TeamAbbreviation" /></label>
+                </br>
+                </br>
+                
+                <label>Team Logo <input type ="file" id= "myfile" name="TeamLogo" /></label>
+                </br>
+                </br>
+                
+                <label>Win <input type ="text" name="Wins" /></label>
+                </br>
+                </br>
+				
+		<label>Loss <input type ="text" name = "Loss" /></label>
+		</br>
+		</br>
+
+		<label>Enter a Team Password<input type ="password" name = "Password" /></label>
+		</br>
+		</br>
+
+
+		 		                
+                <input type ="submit" value="Submit" />
+            
+            </form>
+        </div>
+
+     </div>
+     
+
+</body>
+
+
+</html>
